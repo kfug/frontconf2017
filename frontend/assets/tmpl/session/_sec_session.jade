@@ -1,0 +1,25 @@
+section#session
+    .container
+        .session__heading
+            h2.title SESSION
+        .session__block
+            .session_lists
+                each speaker in speaker_lists
+                    div.session__list(id=""+speaker.id)
+                        div(class="session__list__balloon--"+speaker.field)
+                            p.session__list__title #{speaker.title}
+                            p.session__list__detail #{speaker.detail}
+                        .session__list__pict
+                            img(src="./img/speaker/"+speaker.photo)
+                        .session__list__info
+                            p.session__list__name #{speaker.name}
+                            a.session__list__link(href=""+speaker.link target="_blank") <i class="fa fa-link" aria-hidden="true"></i>
+                            p.session__list__profile #{speaker.profile}
+            br
+            p(style="text-align:center") and more...
+
+
+        .session__link-area
+            .btn
+                a(href="/")
+                    span TOP に戻る

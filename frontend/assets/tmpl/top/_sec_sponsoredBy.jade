@@ -4,33 +4,18 @@ section#sponsoredBy
             h2.title SPONSORED BY
         .sponsoredBy__block
             .sponsoredBy__lists
-                a.sponsoredBy__list(href="http://reas.jp/" target="_blank")
-                    img.sponsoredBy__list__logo(src="./img/sponsor/sponsor_bnr_reas.png" alt="株式会社リアズ")
-
-                a.sponsoredBy__list(href="http://chatbox-inc.com/" target="_blank" alt="株式会社chatbox")
-                    img.sponsoredBy__list__logo(src="./img/sponsor/sponsor_bnr_chatbox.png")
-
-                a.sponsoredBy__list(href="https://in.spicagraph.com/" target="_blank" alt="デザイナーのイラストノート")
-                    img.sponsoredBy__list__logo(src="./img/sponsor/sponsor_bnr_illustrationNoteOfDesigner.png")
-
-                a.sponsoredBy__list(href="https://www.sakura.ad.jp/" target="_blank" alt="さくらインターネット株式会社")
-                    img.sponsoredBy__list__logo(src="./img/sponsor/sponsor_bnr_sakuraInternet.png")
-
-                a.sponsoredBy__list(href="http://blog.cybozu.io/" target="_blank" alt="サイボウズ株式会社")
-                    img.sponsoredBy__list__logo(src="./img/sponsor/sponsor_bnr_cybozu.png")
-
-                a.sponsoredBy__list(href="http://www.tam-tam.co.jp/" target="_blank" alt="株式会社TAM")
-                    img.sponsoredBy__list__logo(src="./img/sponsor/sponsor_bnr_tam.png")
-
-                a.sponsoredBy__list(href="http://www.chuosystem.co.jp/" target="_blank" alt="中央システム株式会社")
-                    img.sponsoredBy__list__logo(src="./img/sponsor/sponsor_bnr_chuoSystem.png")
-
-                a.sponsoredBy__list(href="http://www.cri.co.jp/" target="_blank" alt="株式会社クリーク・アンド・リバー社")
-                    img.sponsoredBy__list__logo(src="./img/sponsor/sponsor_bnr_creeekAndRiver.png")
-
-                a.sponsoredBy__list(href="https://www.mercari.com/jp/jobs/" target="_blank" alt="株式会社メルカリ")
-                    img.sponsoredBy__list__logo(src="./img/sponsor/sponsor_bnr_mercari.png")
-
+                .sponsorBy_lists--rank3                
+                    each sponsor in sponsorBy_lists.rank3
+                        a(class="sponsoredBy__list--rank" + sponsor.rank)(href=sponsor.link target="_blank")
+                            img.sponsoredBy__list__logo(src="./img/sponsor/" + sponsor.photo alt=sponsor.name)
+                    .sponsorBy_lists--rank2                
+                    each sponsor in sponsorBy_lists.rank2
+                        a(class="sponsoredBy__list--rank" + sponsor.rank)(href=sponsor.link target="_blank")
+                            img.sponsoredBy__list__logo(src="./img/sponsor/" + sponsor.photo alt=sponsor.name)
+                    .sponsorBy_lists--rank1                
+                    each sponsor in sponsorBy_lists.rank1
+                        a(class="sponsoredBy__list--rank" + sponsor.rank)(href=sponsor.link target="_blank")
+                            img.sponsoredBy__list__logo(src="./img/sponsor/" + sponsor.photo alt=sponsor.name)
     .sponsoredBy__link-area
         .btn
             a(href="https://goo.gl/forms/rh4VqUY0TjLLAJU72",target="_blank")

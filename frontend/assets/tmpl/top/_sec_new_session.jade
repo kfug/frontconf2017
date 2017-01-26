@@ -1,0 +1,19 @@
+//
+   Created by chanu on 17/01/24.
+
+section#new_session
+    .session__title__background
+        .container
+            h1.session__title SESSION
+            h2.session__subtitle セッション
+    .session__content__background
+        .container
+            div.session__lists
+                each speaker in speaker_lists
+                    a(href="./session.html#"+speaker.id).session__list
+                        .session__list__img
+                            img.speaker__list__pict(src="./img/speaker/"+speaker.photo)
+                        p.session__list__text #{speaker.title}
+            .btn--session
+                a.session__detaill__link
+                    span SESSION 詳細をみる

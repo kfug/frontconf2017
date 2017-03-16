@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <style src="./css/style.css"></style>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+    <link rel="canonical" href="http://kfug.jp/frontconf2017/">
+    <link rel="icon" type="image/png" href="./img/favicon.ico">
+      <title>FRONTEND CONFERENCE 2017 | 関西フロントエンドUG</title>
+      <meta name="description" content="Webで働く全ての人のために、FRONTEND CONFERENCE 2017年　3月18日　大阪　新梅田研修センター ">
+      <meta property="og:title" content="FRONTEND CONFERENCE 2017 | 関西フロントエンドUG">
+      <meta property="og:image" content="http://kfug.jp/frontconf2017/img/ogp.jpg">
+      <meta property="og:description" content="Webで働く全ての人のために、FRONTEND CONFERENCE 2017年　3月18日　大阪　新梅田研修センター ">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="@frontkansai">
+      <meta name="twitter:creator" content="@frontkansai">
+      <meta name="twitter:title" content="FRONTEND CONFERENCE 2017 | 関西フロントエンドUG">
+      <meta name="twitter:description" content="Webで働く全ての人のために、FRONTEND CONFERENCE 2017年　3月18日　大阪　新梅田研修センター ">
+      <meta name="twitter:image" content="http://kfug.jp/frontconf2017/img/ogp.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Capriola" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/common.bundle.js"> </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBBUUWNtMpPsTRO-03j-3LILml5HRV7LE&amp;callback=initMap"></script><script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66526811-7', 'auto');
+    ga('send', 'pageview');
+
+    $(function(){
+      $("a").on("click",function(){
+          ga("send","event","link","click",$(this).text())
+      })
+    })
+</script>
+  </head>
+  <body>
+    <div class="background"></div>
+    <section id="hero">
+      <div class="hero__block">
+        <div class="hero__title-area">
+          <div class="hero__title_block">
+            <h1 class="hero__title">FRONTEND<br>CONFERENCE<br>2017</h1>
+          </div>
+        </div><img class="bg__imgA" src="./img/photo_A@2x.png"><img class="bg__imgB" src="./img/photo_B@2x.png"><img class="bg__imgC" src="./img/photo_C@2x.png"><img class="bg__imgD" src="./img/photo_D@2x.png"><img class="bg__imgE" src="./img/photo_E@2x.png"><img class="bg__imgF" src="./img/photo_F@2x.png">
+        <div class="hero__infomation">
+          <p>
+             2017年 3月 18日(土)
+            <wbr>10:00~18:00
+            <wbr>&nbsp; 開場 9:30
+          </p>
+          <p>大阪　新梅田研修センター
+            <wbr><a class="hero__infomation__to-access" href="#access"><i class="fa fa-map-marker"></i>アクセス</a>
+          </p>
+        </div>
+        <div class="hero__action-area">
+          <div class="btn"><a href="http://passmarket.yahoo.co.jp/event/show/detail/01m4unypijyt.html" target="_blank"><span>参加受付中！</span></a></div>
+        </div>
+      </div>
+    </section>
+    <nav id="main-menu">
+      <div class="container">
+        <ul class="main-menu">
+          <li class="main-menu__item">
+            <div class="btn"><a href="#new_session">セッション      </a></div>
+          </li>
+          <li class="main-menu__item">
+            <div class="btn"><a href="#handson">ハンズオン</a></div>
+          </li>
+          <li class="main-menu__item">
+            <div class="btn"><a href="#discussion">座談会</a></div>
+          </li>
+          <li class="main-menu__item">
+            <div class="btn"><a href="#product-contest">コンテスト</a></div>
+          </li>
+          <li class="main-menu__item">
+            <div class="btn"><a href="#summary">詳細情報</a></div>
+          </li>
+          <li class="main-menu__item">
+            <div class="btn"><a href="#access">アクセス</a></div>
+          </li>
+        </ul>
+        <div class="to-menu">
+          <div class="to-menu__content"><a class="to-menu__link" href="#main-menu"><i class="fa fa-caret-up to-menu__icon"></i>
+              <div class="to-menu__caption">MENU</div></a></div>
+        </div>
+      </div>
+    </nav>
+    <section id="concept">
+      <div class="container">
+        <div class="concept__heading">
+          <h2 class="title">CONCEPT</h2>
+        </div>
+        <div class="concept__block">
+          <div class="concept__text">
+            <p>2017年の<br>FRONTEND CONFERENCE<br>のコンセプトについて</p>
+            <p>テーマは「<span class="en">つながる</span>」</p>
+            <p>
+              Web制作にまつわるフロントエンドの世界は今も大きく変化し続けています。デザイン、コーディング、エンジニアリング、日々変化する技術の中から、必要なものを紡ぎ、1つのWebページに「つないでいく」Webで働く全ての人のためのイベント、FRONTEND CONFERENCEでは、現場に活きる様々なWeb制作のあり方をセッションやハンズオンイベントを通じて紹介していきます。</p>
+            <p>技術と技術、ヒトとヒトとの繋がりがきっと見つかるFRONTEND CONFERENCEで、「Web制作のイマとこれから」を一緒に見つけてみませんか？</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
+    Created by chanu on 17/01/24.
+    
+    -->
+    <section id="new_session">
+      <div class="session__title__background">
+        <div class="container">
+          <h1 class="session__title">SESSION</h1>
+          <h2 class="session__subtitle">セッション</h2>
+        </div>
+      </div>
+      <div class="session__content__background">
+        <div class="container">
+          <div class="session__lists"><a class="session__list--engineer session__list" href="./session.html#13">
+              <div class="session__list__img" style="background-image: url('./img/speaker/potato.jpg')"></div>
+              <p class="session__list__text">あらゆる人のためのフロントエンド</p></a>
+            <div style="width:45%"></div><a class="session__list--designer session__list" href="./session.html#5">
+              <div class="session__list__img" style="background-image: url('./img/speaker/fukazawa.jpg')"></div>
+              <p class="session__list__text">新ツールやサービスから考える、明日からのデザインフロー</p></a><a class="session__list--markup session__list" href="./session.html#4">
+              <div class="session__list__img" style="background-image: url('./img/speaker/yasuda.jpg')"></div>
+              <p class="session__list__text">エンジニアとデザイナーとの距離</p></a><a class="session__list--markup session__list" href="./session.html#1">
+              <div class="session__list__img" style="background-image: url('./img/speaker/unknown.jpg')"></div>
+              <p class="session__list__text">HTMLスナップショット2016改</p></a><a class="session__list--designer session__list" href="./session.html#2">
+              <div class="session__list__img" style="background-image: url('./img/speaker/yamashita.jpg')"></div>
+              <p class="session__list__text">UIデザインから知る「持続可能なデザイン」</p></a><a class="session__list--engineer session__list" href="./session.html#14">
+              <div class="session__list__img" style="background-image: url('./img/speaker/ota.jpg')"></div>
+              <p class="session__list__text">React/FluxベースのElectronアプリをリモートチームで開発した話</p></a><a class="session__list--markup session__list" href="./session.html#11">
+              <div class="session__list__img" style="background-image: url('./img/speaker/masuda.jpg')"></div>
+              <p class="session__list__text">ウェブを構成するUIの品質とHTML</p></a><a class="session__list--markup session__list" href="./session.html#7">
+              <div class="session__list__img" style="background-image: url('./img/speaker/ishimoto.jpg')"></div>
+              <p class="session__list__text">スタンドアロンAMPのススメ</p></a><a class="session__list--designer session__list" href="./session.html#8">
+              <div class="session__list__img" style="background-image: url('./img/speaker/takazudo.jpg')"></div>
+              <p class="session__list__text">Enduring CSS</p></a><a class="session__list--engineer session__list" href="./session.html#3">
+              <div class="session__list__img" style="background-image: url('./img/speaker/sai.jpg')"></div>
+              <p class="session__list__text">flowtype による型のある世界入門</p></a><a class="session__list--designer session__list" href="./session.html#12">
+              <div class="session__list__img" style="background-image: url('./img/speaker/kitajima.jpg')"></div>
+              <p class="session__list__text">CSSフレームワークをつくろう！</p></a><a class="session__list--engineer session__list" href="./session.html#6">
+              <div class="session__list__img" style="background-image: url('./img/speaker/sugimoto.jpg')"></div>
+              <p class="session__list__text">WebGL 2.0時代の幕開け - ウェブのグラフィックスはどう変わるのか</p></a><a class="session__list--engineer session__list" href="./session.html#15">
+              <div class="session__list__img" style="background-image: url('./img/speaker/mikakane.jpg')"></div>
+              <p class="session__list__text">フロントエンドの制作現場をレガシー化させないために</p></a><a class="session__list--engineer session__list" href="./session.html#10">
+              <div class="session__list__img" style="background-image: url('./img/speaker/okamoto.jpg')"></div>
+              <p class="session__list__text">いわゆる&quot;フロントエンド&quot;がない世界について考える</p></a><a class="session__list--designer session__list" href="./session.html#9">
+              <div class="session__list__img" style="background-image: url('./img/speaker/sakakibara.jpg')"></div>
+              <p class="session__list__text">webの変遷から考えるUIの設計とその先</p></a>
+          </div>
+          <div class="btn--session"><a class="session__detaill__link" href="./session.html"><span>SESSION 詳細をみる</span></a></div>
+        </div>
+      </div>
+    </section>
+    <!--
+    Created by chanu on 17/01/24.
+    
+    -->
+    <section id="handson">
+      <div class="handson__title__background">
+        <div class="container">
+          <h1 class="handson__title">HANDSON</h1>
+          <h2 class="handson__subtitle">ハンズオン</h2>
+        </div>
+      </div>
+      <div class="handson__content__background">
+        <div class="container">
+          <p class="handson__text"></p>昨年人気だったハンズオン企画を今年も開催します!<br>実際に手を動かしながらはやりのツールやフレームワークの学習ができます。<br>メンターによるサポートもありますので初心者の方も是非、参加してみてください。
+          <ul class="handson__lists">
+            <li><a class="handson__list handson__list--designer" href="./handson.html#0"><span class="handson__list__head">XD</span>
+                <p class="handson__list__body">XDを使ってプロトタイプを作ろう</p></a></li>
+            <li><a class="handson__list handson__list--designer" href="./handson.html#1"><span class="handson__list__head">Sketch</span>
+                <p class="handson__list__body">sketchの基本操作を覚えて業務に活かそう</p></a></li>
+            <li><a class="handson__list handson__list--markup" href="./handson.html#2"><span class="handson__list__head">gulp Sass pug</span>
+                <p class="handson__list__body">gulpで学ぶSassとpug</p></a></li>
+            <li><a class="handson__list handson__list--engineer" href="./handson.html#3"><span class="handson__list__head">React</span>
+                <p class="handson__list__body">Reactで覚えるイマドキのフロントエンド開発</p></a></li>
+            <li><a class="handson__list handson__list--markup" href="./handson.html#4"><span class="handson__list__head">Netlify</span>
+                <p class="handson__list__body">Netlifyで作ったSPAやwebサイトを公開しよう</p></a></li>
+            <li><a class="handson__list handson__list--engineer" href="./handson.html#5"><span class="handson__list__head">Angular</span>
+                <p class="handson__list__body">Angular入門者ハンズオン</p></a></li>
+          </ul>
+          <div class="btn--handson"><a class="handson__detaill__link" href="./handson.html"><span>HANDSON 詳細をみる</span></a></div><br>
+        </div>
+      </div>
+    </section>
+    <!--Created by chanu on 17/01/24.
+    -->
+    <section id="discussion">
+      <div class="discussion__title__background">
+        <div class="container">
+          <h1 class="discussion__title">DISCUSSION</h1>
+          <h2 class="discussion__subtitle">座談会</h2>
+        </div>
+      </div>
+      <div class="discussion__content__background">
+        <div class="container">
+          <p class="discussion__text">「Web業界でのお仕事や働き方、キャリアについてなど、色々な立場の人が意見を交換します。来場者の方も気軽に参加が可能です！</p>
+          <ul class="discussion__lists">
+            <li class="discussion__list">
+              <div><span>フロントエンドってどんなお仕事？</span></div>
+            </li>
+            <li class="discussion__list">
+              <div><span>やりたいことと x 業務 x 日頃の学び</span></div>
+            </li>
+            <li class="discussion__list">
+              <div><span>自分の働き方と 転職と</span></div>
+            </li>
+            <li class="discussion__list">
+              <div><span>フリーランスってどんな働き方？</span></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="product-contest">
+      <div class="product-contest__title__background">
+        <div class="container">
+          <h1 class="product-contest__title">PRODUCT CONTEST FOR STUDENTS</h1>
+          <h2 class="product-contest__subtitle">学生作品コンテスト</h2>
+        </div>
+      </div>
+      <div class="product-contest__content__background">
+        <div class="container">
+          <p class="product-contest__text">関西をはじめとした全国各地から学生が集い、それぞれが自分の自慢のサービスやプロダクトについて、自由にプレゼンテーションをしていただく作品コンテストを開催します！</p>
+          <div class="product-contest__requirements">
+            <div class="product-contest__requirements__top">
+              <h1 class="product-contest__requirements__title">参加者募集中</h1>
+              <p class="product-contest__requirements__summary">
+                 「自分の作品が現場で通用するか確かめたい!」<br>学生さんのご参加をお持ちしております。</p>
+            </div>
+            <div class="product-contest__requirements__bottom">                   
+              <ul class="product-contest__requirements__merit-list">
+                <li>
+                  <div class="product-contest__requirements__merit-list__checkbox fa fa-check"></div>
+                  <p>作ったものに対してプロからアドバイスが貰える</p>
+                </li>
+                <li>
+                  <div class="product-contest__requirements__merit-list__checkbox fa fa-check"></div>
+                  <p>自分のことを企業にアピールできる</p>
+                </li>
+                <li>
+                  <div class="product-contest__requirements__merit-list__checkbox fa fa-check"></div>
+                  <p>実績としてポートフォリオにいれることができる</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p class="product-contest__text">応募方法、審査員、スポンサー、各種賞についての情報は<a href="https://kfug.connpass.com/event/49255/" target="_blank">募集ページ</a>より確認してください。</p>
+        </div>
+      </div>
+    </section>
+    <section id="after-party">
+      <div class="after-party__title__background">
+        <div class="container">
+          <h1 class="after-party__title">AFTER PARTY</h1>
+          <h2 class="after-party__subtitle">懇親会</h2>
+        </div>
+      </div>
+      <div class="after-party__content__background">
+        <div class="container">
+          <p class="after-party__text">登壇して頂いたスピーカーさんや他の参加者と交流し様々な情報を交換できる場です。<br>懇親会LTやスポンサー様から頂いたプレゼントをかけたじゃんけん大会なども企画しております!</p>
+          <div class="after-party__image"></div>
+          <div class="btn--after-party"><a class="after-party__detaill__link" href="http://passmarket.yahoo.co.jp/event/show/detail/01m4unypijyt.html" target="_blank"><span>懇親会参加チケット発売中</span></a></div>
+        </div>
+      </div>
+    </section>
+    <section id="sponsoredBy">
+      <div class="container">
+        <div class="sponsoredBy__heading">
+          <h2 class="title">SPONSORED BY</h2>
+        </div>
+        <div class="sponsoredBy__block">
+          <div class="sponsoredBy__lists--rank3"><a class="sponsoredBy__list--rank3" href="http://blog.cybozu.io/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_cybozu.png" alt="サイボウズ株式会社"></a>
+          </div>
+          <div class="sponsoredBy__lists--rank2"><a class="sponsoredBy__list--rank2" href="http://reas.jp/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_reas.png" alt="株式会社リアズ"></a><a class="sponsoredBy__list--rank2" href="http://www.cri.co.jp/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_creeekAndRiver.png" alt="株式会社クリーク・アンド・リバー社"></a><a class="sponsoredBy__list--rank2" href="http://design.dena.com/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_DeNA.png" alt="株式会社ディー・エヌ・エー"></a><a class="sponsoredBy__list--rank2" href="http://www.ec-cube.net/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_lockon.png" alt="株式会社ロックオン"></a><a class="sponsoredBy__list--rank2" href="https://aquent.co.jp/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_aquent.png" alt="AQUENT"></a><a class="sponsoredBy__list--rank2" href="http://www.pixiv.co.jp/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_pixiv.png" alt="ピクシブ株式会社"></a><a class="sponsoredBy__list--rank2" href="http://gsacademy.tokyo/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_gsAcademyTokyo.png" alt="ジーズアカデミーTOKYO"></a>
+          </div>
+          <div class="sponsoredBy__lists--rank1">                                <a class="sponsoredBy__list--rank1" href="http://chatbox-inc.com/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_chatbox.png" alt="株式会社chatbox"></a><a class="sponsoredBy__list--rank1" href="https://in.spicagraph.com/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_illustrationNoteOfDesigner.png" alt="デザイナーのイラストノート"></a><a class="sponsoredBy__list--rank1" href="https://www.sakura.ad.jp/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_sakuraInternet.png" alt="さくらインターネット株式会社"></a><a class="sponsoredBy__list--rank1" href="http://www.tam-tam.co.jp/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_tam.png" alt="株式会社TAM"></a><a class="sponsoredBy__list--rank1" href="http://www.chuosystem.co.jp/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_chuoSystem.png" alt="中央システム株式会社"></a><a class="sponsoredBy__list--rank1" href="https://www.mercari.com/jp/jobs/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_mercari.png" alt="株式会社メルカリ"></a><a class="sponsoredBy__list--rank1" href="https://www.unzip.co.jp/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_unzip.png" alt="アンジップ株式会社"></a><a class="sponsoredBy__list--rank1" href="https://www.pxgrid.com/ " target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_pixelGrid.png" alt="株式会社ピクセルグリッド"></a><a class="sponsoredBy__list--rank1" href="https://sake.rdlabo.jp/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_sakedokoroSakaki.png" alt="酒処さかき"></a><a class="sponsoredBy__list--rank1" href="https://www.appleple.com" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_appleple.png" alt="有限会社アップルップル"></a><a class="sponsoredBy__list--rank1" href="https://cookbiz.jp" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_cookbiz.png" alt="飲食店の求人・転職サイト クックビズ"></a><a class="sponsoredBy__list--rank1" href="https://wovn.io/jp/trial" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_minimalTechnologies.png" alt="株式会社ミニマル・テクノロジーズ"></a><a class="sponsoredBy__list--rank1" href="https://www.tam-bourine.co.jp/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_tambourine.png" alt="株式会社タンバリン"></a>
+          </div>
+        </div>
+        <div class="sponsoredBy__heading">
+          <h2 class="title">MEDIA</h2>
+        </div>
+        <div class="sponsoredBy__block">
+          <div class="sponsoredBy__lists--rank1"><a class="sponsoredBy__list--rank1" href="http://gihyo.jp/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_gihyo.png" alt="株式会社メルカリ"></a>
+          </div>
+        </div>
+        <div class="sponsoredBy__heading">
+          <h2 class="title">SUPPORTED BY</h2>
+        </div>
+        <div class="sponsoredBy__block">
+          <div class="sponsoredBy__lists--rank1"><a class="sponsoredBy__list--rank1" href="https://ng-kyoto.github.io/" target="_blank"><img class="sponsoredBy__list__logo" src="./img/sponsor/sponsor_bnr_ngkyoto.png" alt="ng-kyoto"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="summary">
+      <div class="container">
+        <div class="summary__heading">
+          <h2 class="title">SUMMARY</h2>
+        </div>
+        <div class="summary__block">
+          <h2 class="about__title">ABOUT</h2>
+          <h3 class="about__subtitle">基本情報</h3>
+          <table class="about__table">
+            <tbody class="about__tbody">
+              <tr class="about__tr">
+                <th class="about__th">日時</th>
+                <td class="about__td">2017年3月18日　10:00-18:00</td>
+              </tr>
+              <tr class="about__tr">
+                <th class="about__th">場所</th>
+                <td class="about__td">新梅田研修センター</td>
+              </tr>
+              <tr class="about__tr">
+                <th class="about__th">主催</th>
+                <td class="about__td">関西フロントエンドUG</td>
+              </tr>
+              <tr class="about__tr">
+                <th class="about__th">対象者</th>
+                <td class="about__td">Webに関心のある全ての人</td>
+              </tr>
+              <tr class="about__tr">
+                <th class="about__th">定員</th>
+                <td class="about__td">300名程度を予定</td>
+              </tr>
+              <tr class="about__tr">
+                <th class="about__th">参加登録</th>
+                <td class="about__td"><a href="http://passmarket.yahoo.co.jp/event/show/detail/01m4unypijyt.html" target="_blank" style="color:inherit">PassMarket</a>&nbsp; にて受付中！</td>
+              </tr>
+              <tr class="about__tr">
+                <th class="about__th">ハッシュタグ</th>
+                <td class="about__td"><a href="https://twitter.com/search?src=typd&amp;q=%23frontkansai" target="_blank">#frontkansai</a></td>
+              </tr>
+              <tr class="about__tr">
+                <th class="about__th">お問い合わせ</th>
+                <td class="about__td"><a href="https://www.facebook.com/frontconf2017" target="_blank">Facebookページ</a>または<a href="https://twitter.com/frontkansai" target="_blank">Twitter公式</a>アカウントよりお願いします。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="summary__block">
+          <h2 class="access__title" id="access">ACCESS</h2>
+          <h3 class="access__subtitle">アクセス</h3>
+          <div class="access__map__background">
+            <div class="access__map">
+              <div id="map"></div>
+            </div>
+          </div>
+          <div class="access__link-area">
+            <div class="btn--access"><a class="access__detaill__link" href="https://goo.gl/maps/hBYk8ddqf8S2" target="_blank"><span>GoogleMap で開く</span></a></div>
+          </div>
+          <div class="access__info">
+            <div class="access__info__item">
+              <div class="access__info__item__head"><i class="fa fa-map-marker"></i><span>新梅田研修センター</span></div>
+              <div class="access__info__item__body">〒553-0003 <br>大阪府大阪市福島区福島6-22-20</div>
+            </div>
+            <div class="access__info__item">
+              <div class="access__info__item__head"><i class="fa fa-train"></i><span>電車でのアクセス</span></div>
+              <div class="access__info__item__body">JR大阪駅　徒歩10分</div>
+            </div>
+          </div>
+        </div>
+        <div class="summary__block">
+          <h2 class="time-table__title">TIME TABLE</h2>
+          <h3 class="time-table__subtitle">タイムテーブル</h3>
+          <div class="time-table__pdf__background">
+            <iframe class="time-table__pdf" src="https://drive.google.com/file/d/0B5XyfEvaaEXjWUxYc0ZQNzNndGM/preview" width="100%" height="auto"></iframe>
+          </div>
+          <div class="time-table__link-area">
+            <div class="btn--time-table"><a class="time-table__detaill__link" href="https://drive.google.com/file/d/0B5XyfEvaaEXjWUxYc0ZQNzNndGM/preview" target="_blank"><span>別窓で開く</span></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="share">
+      <div class="container">
+        <div class="share__heading">
+          <h2 class="title">SHARE</h2>
+        </div>
+        <div class="share__block"><img class="bg__imgA opacoty" src="./img/photo_A@2x.png"><img class="bg__imgB opacoty" src="./img/photo_B@2x.png"><img class="bg__imgC opacoty" src="./img/photo_C@2x.png"><img class="bg__imgD opacoty" src="./img/photo_D@2x.png"><img class="bg__imgE opacoty" src="./img/photo_E@2x.png"><img class="bg__imgF opacoty" src="./img/photo_F@2x.png">
+          <div class="share__intoro">
+            <p> SNSで「<span class="en">つながり</span>」の<br>きっかけを広めよう</p>
+          </div>
+          <div class="share__action-area">
+            <div class="btn--tw"><a href="https://twitter.com/share?url=http://kfug.jp/frontconf2017/&amp;amp;text=FRONTEND CONFERENCE 2017｜関西フロントエンドUG&amp;hashtags=frontkansai" target="_blank"><span>Twitterでシェア</span></a></div>
+            <div class="btn--fb"><a href="https://www.facebook.com/sharer/sharer.php?u=http://kfug.jp/frontconf2017/" target="_blank"><span>Facebookでシェア</span></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <div class="container">
+        <div class="footer__contents">
+          <div class="footer__logo-area"><img class="footer__logo" src="./img/KFUG_logo@2x.png"></div>
+          <div class="footer__sns-area">
+            <div class="btn"><a href="https://twitter.com/frontkansai" target="_blank">Twitter</a></div>
+            <div class="btn"><a href="https://www.facebook.com/frontconf2017" target="_blank">Facebook</a></div>
+            <div class="btn"><a href="https://kfug.connpass.com/" target="_blank">connpass</a></div>
+          </div>
+          <div class="footer__lead">
+            <p>お問い合わせは<a href="https://www.facebook.com/frontconf2017" target="_blank">Facebookページ</a>または<a href="https://twitter.com/frontkansai" target="_blank">Twitter公式アカウント</a>よりお願いします。</p>
+            <p>関西フロントエンドUGのイベント情報は<a href="https://kfug.connpass.com/" target="_blank">connpassページ</a>や<a href="https://www.facebook.com/groups/kansai.frontend/" target="_blank">Facebookグループ</a>よりご確認ください。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="copyright"><a href="https://twitter.com/kiri_sawa01" target="_blank">Designed by Yasui Risa</a></div>
+  </body>
+</html>

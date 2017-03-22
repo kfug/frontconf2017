@@ -1,0 +1,257 @@
+@import "lib/_value.scss";
+@import "lib/_mixin.scss";
+
+#partyOver {
+  .hero__info {
+    margin: 1em 0 0;
+    padding: 1em 0 1.7em;
+    text-align: center;
+    color: $font;
+    background: rgba(255,255,255,.8);
+  }
+  .hero__infoTitle {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .hero__infoDescription {
+    padding: 0 20%;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: .9em;
+    @include mediaSP {
+      padding: 0 2em;
+    }
+  }
+
+  #new_session {
+    .session__title__background {
+      padding: calc((220px - 116px)/2) 50px;
+    }
+    .session__lists{
+      display: flex;
+      justify-content: center;
+      .session__list{
+        width: 76%;
+        margin-left: 0;
+        margin-bottom:20px;
+        @include mediaSP {
+          width: 100%;
+        }
+        &:hover {
+          opacity: 1;
+        }
+
+        .session__list__img {
+          width: 74px;
+          height: 74px;
+        }
+        .session__list__text{
+          font-family: $font_set_ja;
+          font-weight: bold;
+          display: inline-block;
+          text-align: left;
+          width:100%;
+          padding-top: 0;
+          padding-bottom: 0;
+          padding-right: 0;
+          box-sizing: border-box;
+          color: $font_light;
+          position: relative;
+          span {
+            display: inline-block;
+            padding-top: 20px;
+            @include mediaSP {
+              padding-top: 0;
+            }
+          }
+        }
+        &--markup {
+          background-repeat: no-repeat;
+          background-position: 100% 20%;
+          background-size: 350%;
+        }
+        &--designer {
+          background-repeat: no-repeat;
+          background-position: 95% 90%;
+          background-size: 350%;
+        }
+        &--engineer {
+          background-repeat: no-repeat;
+          background-position: 0% 40%;
+          background-size: 350%;
+        }
+      }
+      .session__list__link {
+        display: inline-block;
+        padding: 0 .5em;
+        padding-top: 25px;
+        padding-left: 10px;
+        box-sizing: border-box;
+        height: 100%;
+        text-align: center;
+        font-size: .7em;
+        position: absolute;
+        background: #fff;
+        right: 0;
+        @include mediaSP {
+          font-size: .5em;
+          height: auto;
+          left: 0;
+          bottom: 0;
+          padding-top: 3px;
+        }
+      }
+    }
+    .lt__list {
+      display: inline-block;
+      margin: 0 10px;
+    }
+  }
+  #lt{
+    .lt__title__background{
+      @include section--title--background;
+      background-image: url("../../img/heading_lt.png");
+      padding: calc((220px - 116px)/2) 50px;
+      .container {
+        .lt__title {
+          color: $font-light;
+        }
+        .lt__subtitle {
+          color: $font-light;
+        }
+      }
+    }
+    .lt__content__background{
+      @include section--content--background;
+      .container {
+        text-align: center;
+        max-width: 1200px;
+        .discussion__lists{
+          color:$font-light;
+          margin-bottom:50px;
+          padding:0;
+        }
+        .lt__list{
+          display: inline-block;
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+  #handson{
+    .handson__title__background{
+      padding: calc((220px - 116px)/2) 50px;
+    }
+    .handson__content__background{
+      .handson__list__head{
+        width: 150px;
+        font-size: .8em;
+        @include mediaSP {
+          width: 100%;
+        }
+      }
+      .handson__list__body{
+        width: 100%;
+        text-align: left;
+        position: relative;
+        padding: 0;
+        span {
+          display: inline-block;
+          padding: 8px 10px 5px;
+          box-sizing: border-box;
+        }
+        @include mediaSP {
+          width: 100%;
+          text-align: center;
+          height: 80px;
+        }
+      }
+      a {
+        &:hover {
+          opacity: 1;
+        }
+      }
+      .handson__list__slide {
+        display: inline-block;
+        padding: 0 5px;
+        padding-top: 10px;
+        box-sizing: border-box;
+        width: 150px;
+        height: 100%;
+        text-align: center;
+        font-size: .7em;
+        position: absolute;
+        background: #fff;
+        right: 0;
+        @include mediaSP {
+          padding-top: 5px;
+          width: 100%;
+          height: 30px;
+          bottom: 0;
+        }
+
+      }
+    }
+  }
+  #blog{
+    .blog__title__background{
+      @include section--title--background;
+      background-image: url("../../img/heading_blog.png");
+      padding: calc((220px - 116px)/2) 50px;
+      .container {
+        .blog__title {
+          color: $font-light;
+        }
+        .blog__subtitle {
+          color: $font-light;
+        }
+      }
+    }
+    .blog__content__background{
+      @include section--content--background;
+      .container {
+        text-align: center;
+        max-width: 1200px;
+        .discussion__lists{
+          color:$font-light;
+          margin-bottom:50px;
+          padding:0;
+        }
+        .blog__list{
+          display: inline-block;
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+
+  #staffs {
+    padding-bottom: 3em;
+    text-align: center;
+    @include page-bottom;
+    // @include gradation--top;
+
+    .container {
+      max-width: 1200px;
+      padding-top: 30px;
+    }
+    .staffs__heading {
+      font-size: 20px;
+      color: white;
+      @include heading(white);
+      @include mediaPC {
+        position: relative;
+      }
+    }
+    .staffs__block {
+      margin: 2em 0;
+    }
+
+    //TODO スタッフリストのスタイルをここに記述
+
+  }
+
+
+
+}//#partyOver

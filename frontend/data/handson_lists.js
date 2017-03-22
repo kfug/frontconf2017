@@ -16,7 +16,8 @@ module.exports = [
       introduction: "株式会社chatboxのデザイナー、Webデザイン、パンフレット、イラストの製作に携わる、「作る」だけでなく、人と人を「繋ぎ」、想いが「伝わる」デザインをつくれるよう日々精進中。"
     },
     detail_link: "https://kfug.connpass.com/event/49904/",
-    field: "designer"
+    field: "designer",
+    slide: "https://docs.google.com/presentation/d/1GGH4_I_bHQIGRc2lASXGXsvrBfaJoRF_mNDMjvUU-6E/edit#slide=id.g35f391192_00",
   },
   {
     id: 1,
@@ -34,7 +35,8 @@ module.exports = [
       introduction: "大阪にある制作会社tech veinでプログラマに愛されるWebデザイナをしています。CSS設計とマーケティングが得意です。日夜sketchの布教に尽力しています"
     },
     detail_link: "https://kfug.connpass.com/event/51694/",
-    field: "designer"
+    field: "designer",
+    slide: "https://contiki9.github.io/FRONTEND-CONFERENCE-2017-sketch/",
   },
   {
     id: 2,
@@ -52,7 +54,8 @@ module.exports = [
       introduction: "株式会社chatboxでエンジニアとして楽しく働いています。"
     },
     detail_link: "https://kfug.connpass.com/event/51695/",
-    field: "markup"
+    field: "markup",
+    slide: "https://docs.google.com/presentation/d/1YzBks4o29ve9qq3UfLIDlHucmzc84OkE0SWF7Tr-Ckg/edit#slide=id.g35f391192_00",
   },{
     id: 3,
     technology: "React",
@@ -70,7 +73,8 @@ module.exports = [
       introduction: "株式会社はてなのフロントエンドエンジニア。京都でJavaScriptやTypeScript, Scalaを書いて暮らしています。"
     },
     detail_link: "https://kfug.connpass.com/event/51698/",
-    field: "engineer"
+    field: "engineer",
+    slide: "https://speakerdeck.com/fand/reactdexue-bu-imadokifalsewebkai-fa",
   },
   {
     id: 4,
@@ -87,7 +91,8 @@ module.exports = [
       introduction: "いろいろやってます"
     },
     detail_link: "https://kfug.connpass.com/event/51696/",
-    field: "markup"
+    field: "markup",
+    slide: "https://speakerdeck.com/hideokamoto/hurontoendokanhuarensu-2017-netlifyhanzuon",
   },
 
   {
@@ -107,6 +112,7 @@ module.exports = [
       introduction: "株式会社ピクセルグリッド所属のフロントエンド・エンジニア。Angularコミュニティng-kyoto代表。大規模Webアプリケーションの設計、構築を得意とする。"
     },
     detail_link: "https://kfug.connpass.com/event/51697/",
-    field: "engineer"
+    field: "engineer",
+    slide: "https://github.com/ng-japan/ng2-hands-on-seed/tree/master/courses/material-todoapp",
   },
 ]

@@ -1,0 +1,8 @@
+section#staffs
+  .container
+    .sstaffs__heading
+      h2.title STAFF
+    .staffs__block
+      each staff in staff_lists
+          .blog__list
+              a(href="#") #{staff.name}

@@ -7,7 +7,8 @@ module.exports = [
         photo: "potato.jpg",
         name: "花谷拓磨(Potato4d)",
         profile: "FRONTEND CONFERENCE 2017実行委員長。高校生。 ベンチャー企業でJavaScriptエンジニアやデザイナーをやっていたら春からピクシブで仕事することになりました。",
-        field: "engineer"
+        field: "engineer",
+        slide: "https://speakerdeck.com/potato4d/arayururen-falsetamefalsehurontoendo-number-frontkansai",
     },
     {
         id: 5,
@@ -17,7 +18,8 @@ module.exports = [
         photo: "fukazawa.jpg",
         name: "深沢 幸治郎",
         profile: "大阪を中心に活動するウェブデザイナー。2009年よりフリーランスとして多くのウェブサイト・ウェブメディア・モバイルアプリの設計・デザイン・CMS実装に携わる。2010年に日本最初期のコワーキングスペース「JUSO Coworking」を開業、様々なコミュニティ活動やイベントの支援を行っている。",
-        field: "designer"
+        field: "designer",
+        slide: "https://speakerdeck.com/witch_doktor/xin-turuyasabisukarakao-eru-ming-ri-karafalsedezainhuro",
     },
     {
         id: 4,
@@ -27,7 +29,8 @@ module.exports = [
         photo: "yasuda.jpg",
         name: "安田学",
         profile: "大阪にあるWeb制作会社TAMでマークアップエンジニアをしています。CSS設計が得意です。 不定期ですが、弊社コワーキングスペースで「CSSTalk」というCSSを主題とした勉強会を主催しています。",
-        field: "markup"
+        field: "markup",
+        slide: "https://www.slideshare.net/manabuyasuda1/ss-73215731",
     },
     {
         id: 1,
@@ -37,7 +40,8 @@ module.exports = [
         photo: "unknown.jpg",
         name: "momdo",
         profile: "非IT系会社員なWHATWG/W3C仕様アマチュア翻訳者。ウェブアクセシビリティ基盤委員会（WAIC）作業部会4（翻訳）オブザーバー。",
-        field: "markup"
+        field: "markup",
+        slide: "https://github.com/momdo/talk/blob/master/webtalk_2017-03-18.pdf",
     },
     {
         id: 2,
@@ -47,7 +51,8 @@ module.exports = [
         photo: "yamashita.jpg",
         name: "山下　一樹",
         profile: "Panasonic 情報システム部門にてエンジニア、企画を経て、UI デザインと UX を専門とする株式会社インパスを設立。 インフォメーションアーキテクトとして、アプリや Web に関する情報設計と UI デザイン、UX デザインのコンサルティングに従事する。",
-        field: "designer"
+        field: "designer",
+        slide: "https://speakerdeck.com/ykazu/sustinable-frontend-design",
     },
     {
         id: 14,
@@ -57,7 +62,8 @@ module.exports = [
         photo: "ota.jpg",
         name: "太田 絵一郎",
         profile: " サイボウズ株式会社/大阪開発部所属、入社2年目のWebエンジニア。 入社後、グループウェア製品であるkintone、サイボウズOfficeの開発に従事するかたわら、 社内のカフェ部大阪支部長を務め、日々コーヒーを飲んでいる。",
-        field: "engineer"
+        field: "engineer",
+        slide: "https://speakerdeck.com/kaiichiro/fluxbesufalseelectronapuriworimototimudekai-fa-sitahua",
     },
     {
         id: 11,
@@ -67,7 +73,8 @@ module.exports = [
         photo: "masuda.jpg",
         name: "桝田 草一",
         profile: "株式会社サイバーエージェントで生放送プラットフォーム「FRESH!（フレッシュ）」のフロントエンドを担当しているエンジニアです。",
-        field: "markup"
+        field: "markup",
+        slide: "http://masup.net/slide/frontconf2017/index.html#/",
     },
     {
         id: 7,
@@ -77,7 +84,8 @@ module.exports = [
         photo: "ishimoto.jpg",
         name: "石本 光司",
         profile: "株式会社ソウゾウというところでメルカリアッテというクラシファイドサービスを作っています。メルカリじゃないです。",
-        field: "markup"
+        field: "markup",
+        slide: "http://tech.mercari.com/entry/recommending-standalone-amp",
     },
     {
         id: 8,
@@ -87,7 +95,8 @@ module.exports = [
         photo: "takazudo.jpg",
         name: "高津戸壮 (@Takazudo)",
         profile: "Web制作会社、フリーランスを経て、株式会社ピクセルグリッドに入社。数多くのWebサイト、WebアプリケーションのHTML、CSS、JavaScript実装に携わってきた。受託案件を中心にフロント周りの実装、設計、テクニカルディレクションを行う。",
-        field: "designer"
+        field: "designer",
+        slide: "https://www.slideshare.net/Takazudo/enduring-css",
     },
     {
         id: 3,
@@ -97,7 +106,8 @@ module.exports = [
         photo: "sai.jpg",
         name: "さい",
         profile: "株式会社DeNA Games Osaka で Web アプリケーションエンジニアをやっております。 個人では、JavaScript と HTML5 でゲーム作ったり とフロントエンドを楽しんでおります。",
-        field: "engineer"
+        field: "engineer",
+        slide: "https://www.slideshare.net/sairoutine/flow-73272518",
     },
     {
         id: 12,
@@ -107,7 +117,8 @@ module.exports = [
         photo: "kitajima.jpg",
         name: "キタジマタカシ",
         profile: "長崎でフリーランスとしてWordPressテーマ・プラグイン開発やHTML/CSSコーディングなどの仕事をしながら、色々なプロダクトをOSSとして公開しています。",
-        field: "designer"
+        field: "designer",
+        slide: "https://speakerdeck.com/inc2734/csshuremuwakuwotukurou",
     },
     {
         id: 6,
@@ -117,7 +128,8 @@ module.exports = [
         photo: "sugimoto.jpg",
         name: "杉本 雅広",
         profile: "サンデープログラマから最近やっと本業プログラマになりました。wgld.org、WebGL 総本山などを運営しています。",
-        field: "engineer"
+        field: "engineer",
+        slide: "https://doxas.org/slide/frontkansai2017/",
     },
     {
         id: 15,
@@ -127,7 +139,8 @@ module.exports = [
         photo: "mikakane.jpg",
         name: "後藤 知宏",
         profile: "大阪で株式会社chatbox というWeb制作の会社をやっています。受託制作の傍ら、技術顧問をやったり、セミナー・イベントをやったり。",
-        field: "engineer"
+        field: "engineer",
+        slide: "",
     },
     {
         id: 10,
@@ -137,7 +150,8 @@ module.exports = [
         photo: "okamoto.jpg",
         name: "岡本秀高",
         profile: "Digitalcubeインフラエンジニア Amazon AlexaやWordPress、Serverless FWなどを使ってよくわからないことをしている太鼓の人",
-        field: "engineer"
+        field: "engineer",
+        slide: "https://speakerdeck.com/hideokamoto/iwayuru-hurontoendo-ganaishi-jie-nituitekao-eru",
     },
     {
         id: 9,
@@ -147,6 +161,7 @@ module.exports = [
         photo: "sakakibara.jpg",
         name: "榊原昌彦",
         profile: "Webサイト、Webアプリ制作に留まらず、まちづくりをフィールドに「どのようにITで効率化・収益化するか」を実践しています。フルスタックエンジニア。一般社団法人リレーションデザイン研究所代表理事。一般社団法人エリア・イノベーション・アライアンスCTO。",
-        field: "designer"
+        field: "designer",
+        slide: "",
     },
 ];

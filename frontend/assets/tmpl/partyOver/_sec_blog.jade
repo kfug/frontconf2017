@@ -1,0 +1,10 @@
+section#blog
+        .blog__title__background
+            .container
+                h1.blog__title BLOG
+                h2.blog__subtitle ブログ
+        .blog__content__background
+            .container
+                each blog in blog_lists
+                    .blog__list
+                        <iframe style="width:100%;height:155px;max-width:320px;display:inline-block;" src="http://hatenablog.com/embed?url=#{blog.link}" frameborder="0" scrolling="no"></iframe>

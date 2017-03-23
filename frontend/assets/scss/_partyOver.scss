@@ -2,8 +2,18 @@
 @import "lib/_mixin.scss";
 
 #partyOver {
+  #hero {
+    background: url("../../img/hero_image_partyOver.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .hero__block {
+      margin: 0;
+      max-width: 100%;
+    }
+  }
   .hero__info {
-    margin: 1em 0 0;
+    margin: 0;
     padding: 1em 0 1.7em;
     text-align: center;
     color: $font;

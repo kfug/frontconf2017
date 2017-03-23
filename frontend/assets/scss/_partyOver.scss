@@ -225,7 +225,6 @@
       }
     }
   }
-
   #staffs {
     padding-bottom: 3em;
     text-align: center;
@@ -246,11 +245,65 @@
     }
     .staffs__block {
       margin: 2em 0;
+
+    .staff__list{
+      ul{
+        list-style: none;
+        padding: 0;
+        overflow: hidden;
+        width: 70%;
+        margin: 0 auto;
+        @include mediaSP {
+          width: 100%;
+        }
+      }
+      li{
+        width:25%;
+        float: left;
+        margin-bottom: 10px;
+        @include mediaSP {
+          width:33%;
+        }
+
+      }
+        img{
+        position: relative;
+        display: inline-block;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        @include mediaSP {
+          width: 80px;
+          height: 80px;
+        }
+        }
+      a{
+        display: block;
+        color: #414b6c;
+      }
+      a:hover{
+        opacity: 0.7;
+
+      }
+    ul.students{
+      list-style: none;
+      width: 70%;
+      margin:20px auto 0;
+      @include mediaSP {
+        width: 100%;
+      }
+     }
+      ul.students li{
+        width: 25%;
+        margin-bottom: 20px;
+      @include mediaSP {
+        width: 32%;
+        }
+      }
+      }
     }
-
-    //TODO スタッフリストのスタイルをここに記述
-
   }
+
 
 
 

@@ -23,7 +23,7 @@ p {
 }
 
 #hero{
-  padding: 0 5px;
+  padding: 0;
   @include page-bottom;
   color:$font_light;
   position: relative;

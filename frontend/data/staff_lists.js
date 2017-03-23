@@ -1,27 +1,27 @@
 module.exports = [
     {
-        name: "ほげこ"
+        name: "花谷 拓磨"
     },
     {
-        name: "ほげこ"
+        name: "後藤 知宏"
     },
     {
-        name: "ほげこ"
+        name: "シマキョウスケ"
     },
     {
-        name: "ほげこ"
+        name: "Yasui Risa"
     },
     {
-        name: "ほげこ"
+        name: "ショウノシオリ"
     },
     {
-        name: "ほげこ"
+        name: "山崎 好洋"
     },
     {
-        name: "ほげこ"
+        name: "青木 勇介"
     },
     {
-        name: "ほげこ"
+        name: "ミスミタクマ"
     },
     {
         name: "ほげこ"

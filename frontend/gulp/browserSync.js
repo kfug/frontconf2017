@@ -12,7 +12,7 @@ gulp.task("server",()=> {
 
     // var config = {
     //     proxy: "127.0.0.1:8000",
-    //     open: "external",
+        open: "external",
     //     //notify: false
     // };
 

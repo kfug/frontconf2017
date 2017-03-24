@@ -108,8 +108,8 @@
         text-align: center;
         font-size: .7em;
         position: absolute;
-        background: #fff;
         right: 0;
+        background: #f2f2f2;
         @include mediaSP {
           font-size: .9em;
           height: auto;
@@ -199,8 +199,8 @@
         text-align: center;
         font-size: .7em;
         position: absolute;
-        background: #fff;
         right: 0;
+        background: #f2f2f2;
         @include mediaSP {
           padding-top: 9px;
           width: 100%;

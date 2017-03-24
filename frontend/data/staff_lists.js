@@ -22,12 +22,6 @@ module.exports = [
     },
     {
         name: "ミスミタクマ"
-    },
-    {
-        name: "ほげこ"
-    },
-    {
-        name: "ほげこ"
     }
 ]
 

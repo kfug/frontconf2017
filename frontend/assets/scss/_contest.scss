@@ -147,11 +147,18 @@ p {
               height: auto;
             }
             &__title {
+              border-top: solid 1px $font;
               border-bottom: solid 1px $font;
-              padding-bottom: 10px;              
+              padding: 10px 0;
+            }
+            &--best {
+              .contest__info__sponsor__title {
+                font-weight: bold;
+              }
             }
             &--excellence {
               .contest__info__sponsor__title {
+                font-weight: bold;
                 margin-top: 100px;
                 @include mediaSP {
                   margin-top: 50px;

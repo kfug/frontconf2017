@@ -1,4 +1,4 @@
-const sponsors = [	
+const sponsors = [
 	{
 		name: "株式会社リアズ",
 		photo: "sponsor_bnr_reas.png",

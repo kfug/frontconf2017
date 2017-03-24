@@ -15,10 +15,8 @@
 }
 
 body{
-
   width: 100%;
   height: 100%;
-
   font-size: 15px;
   font-family: $font_set_en;
   font-weight: normal;
@@ -73,6 +71,7 @@ body{
 @import "_session.scss";
 @import "_handson.scss";
 @import "_contest.scss";
+@import "_partyOver.scss";
 
 #footer {
   padding: 20px 0 40px;

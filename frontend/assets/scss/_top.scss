@@ -23,10 +23,49 @@ p {
 }
 
 #hero{
-  padding: 0 5px;
+  padding: 0;
   @include page-bottom;
   color:$font_light;
   position: relative;
+
+  .hero__infomation_partyOver {
+    padding: 1em 2em 1.7em;
+    text-align: center;
+    color: $font;
+    background: rgba(255,255,255,.8);
+    @include mediaSP {
+      padding: 1em 1em 1.7em;;
+    }
+    .hero__infomation_partyOverTitle {
+      margin-bottom: .5em;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    .hero__infomation_partyOverDescription{
+      line-height: 1.7;
+    }
+    .hero__infomation_partyOverLink{
+      margin-top: 1em;
+      a{
+        display: inline-block;
+        background-color: rgba(65,75,108,0.8);
+        padding: 8px 30px;
+        border-radius: 30px;
+        font-size: 16px;
+        vertical-align: text-bottom;
+        color: #FFF;
+        &:hover {
+          opacity: .8;
+        }
+      }
+      @include mediaSP {
+        display: inline-block;
+        margin-top: 1em;
+        margin-left: 0px;
+        padding: 4px 25px;
+      }
+    }
+  }
 
   .hero__block{
     text-align: center;
@@ -184,6 +223,7 @@ p {
       margin-top: 3em;
       font-size: 1.4em;
     }
+
     &__to-access {
       margin-left: 30px;
       background-color: rgba(65,75,108,0.8);
